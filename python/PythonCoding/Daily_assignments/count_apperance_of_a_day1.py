@@ -1,8 +1,7 @@
-# Count how many times "a" appears in a string using enumerate
-
-text = input("Enter a string: ")
+text = input("Enter A str")
 
 count = 0
+
 for index, char in enumerate(text):
     if char == 'a':
         count += 1
