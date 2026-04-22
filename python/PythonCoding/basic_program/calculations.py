@@ -1,0 +1,10 @@
+#calculation pgm
+a = int(input("enter a num:"))
+b = int(input("enter a num:"))
+print('sum:', a+b)
+print('diff:', a-b)
+print('prod:', a*b)
+print('int div:', a//b)
+print('float div:', a/b)
+print('pod:', a**b)
+print('mod:', a%b)
